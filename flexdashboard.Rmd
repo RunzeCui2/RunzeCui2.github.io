@@ -1,0 +1,66 @@
+---
+title: "flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+```{r, include = FALSE}
+data("instacart")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+instacart %>% 
+  count(order_dow, aisle) %>%
+  filter(n > 3000) %>%
+  rename(number_of_orders = n, day_of_week = order_dow) %>%
+  mutate(day_of_week = as.character(day_of_week)) %>% 
+  plot_ly(x = ~day_of_week, y = ~number_of_orders, color = ~ aisle, type = "scatter", mode = "line", colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart %>% 
+  count(aisle) %>% 
+  filter(n > 10000) %>% 
+  mutate( 
+    aisle = factor(aisle),
+    aisle = fct_reorder(aisle, n)
+    ) %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
+```
+
+### Chart C
+
+```{r}
+instacart %>% 
+  sample_n(size = 1000) %>%
+  select(order_number,order_hour_of_day, product_name, department) %>%
+  filter(department != "other") %>% 
+  mutate(department = fct_reorder(department, order_hour_of_day)) %>%
+  plot_ly(y = ~order_hour_of_day, color = ~department, type = "box", colors = "viridis")
+```
+
+-----------------------------------------------------------------------
+
+Back to the [main page](index.html)

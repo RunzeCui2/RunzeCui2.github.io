@@ -1,0 +1,86 @@
+---
+title: "My Resume"
+output: 
+  html_document: 
+    toc: yes
+    toc_float: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+## Education Background
+
+
+**Columbia University 2022 - Present** | Mailman School of Public Health, New York, NY
+
+*Master of Science in Biostatistics (Public Health Data Science Track)*
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	GPA: N/A/4.3 (in progress)
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Core Courses: Data Science (R language), Biostatistics, Probability, Epidemiology
+
+
+**The Ohio State University 2018 - 2022** | Columbus, OH 
+
+*Bachelor of Science in Mathematics (Biology Track)*    
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	GPA: 3.648/4.0
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Core Courses: Calculus, Linear Algebra, General Biology, Molecular Genetics, Mathematical Statistics, Differential Equation 
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Awards: Dean’s List (Four times)  
+
+
+
+## Work Experience
+
+**The Heritage Group 05/2021-08/2021** | Indianapolis, IN 
+
+*Intern in the Research Institute* | Mentor: Prof. Kathy Stickney, Chief Researcher in the Heritage Group
+
+&nbsp;&nbsp;&nbsp;&nbsp;• Participated in two projects themed at halogenated plastic recycling and agricultural chemicals & algal blooms – environmental impacts on our ecosystem respectively
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Employed Python to perform information mining and data collection from SciFinder
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Consulted literature for more chemistry, statistics, and modeling knowledge and managed to explain models
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Produced a PPT introducing the two projects and delivered a public presentation before engineers and managers
+
+
+
+## Relavant Projects
+
+**Chinese Academy of Sciences 08/2020-06/2021** | Beijing, China 
+
+*Research Assistant* | Mentor: Prof. JinYan, Chief Researcher in the Chinese Academy of Sciences
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Fulfilled systematic learning in programming, machine learning, classification, models, and algorithms
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Utilized Python for data extraction, analysis, and prediction according to glycemic indexes from hospitals 
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Constructed images for testing independent of training data, and trained the network using the supervised learning approach to reach an over 80% accuracy rate in blood glucose level evaluation  
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Finished the paper “Analysis of Blood Glucose Levels Based on Deep Learning and Image Algorithms” 
+
+**The Molecular Genetics Project 08/2020-06/2021** | OSU, Columbus, OH  
+
+*Researcher* | Mentor: Gregory Booton, Assistant Professor in OSU Department of Molecular Genetics
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Delved into how to speculate and compute the probability of virulence genes in descendants of patients with genetic disorders using the family tree of gene inheritance
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Performed gene information retrieval and conducted research to understand gene query websites and relevant tools 
+
+## Additional Information
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Technical: Microsoft Office, Python, MATLAB, HTML, R Studio, etc. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Soft Skills: Communication, Critical thinking, Collaboration, Problem-solving, Leadership capabilities
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Languages: English (Fluent), Chinese Mandarin (Native)
+
+&nbsp;&nbsp;&nbsp;&nbsp;•	Interests: Playing Badminton and Basketball, Chinese Calligraphy 
+
+Download the word version of my [CV](resume file/Runze_Cui_CV.docx)
+
+Back to the [main page](index.html)
+

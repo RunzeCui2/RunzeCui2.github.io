@@ -1,0 +1,20 @@
+---
+title: "Runze Cui"
+output: 
+  html_document:
+    theme: yeti
+    css: style.css
+
+---
+
+Hi guys! I'm a Master student in the Department of Biostatistics at [Columbia University](https://www.publichealth.columbia.edu/academics/departments/biostatistics).
+
+My track is public health data science which aimed to use R studio, Matlab, Python or any other programming tools to simulate mathematics models and any other data analytical works in Clinical Trails, Statistical methodology and even Epidemiology.  
+
+In 2022 spring, I earned my Mathematics BS degree from [The Ohio State University](https://math.osu.edu/). I worked on molecular genetics project with Prof. Gregory Booton during my senior year. We delved into how to speculate and compute the probability of virulence genes in descendants of patients with genetic disorders using the family tree of gene inheritance, and	performed gene information retrieval and conducted research to understand gene query websites and relevant tools.
+
+Right now, I am currently working on the BLSA bio-markers analysis and visualization in [Columbia Aging Center](https://aging.columbia.edu/) with Prof. Daniel Belsky. 
+
+For more details about me, please visit [resume](resume.html) page on which I posted my resume and other related information. 
+
+Here is my [flexdashboard](flexdashboard.html)
